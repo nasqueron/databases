@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+/*  -------------------------------------------------------------
+    Databases - Not into knowledge extinction
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+    Author:         Dereckson
+    Tags:           orange gray black
+    Filename:       NotInKnowledgeExtinction.css
+    Created:        2013-10-03
+    Licence:        Creative Commons BY 3.0
+    -------------------------------------------------------------    */
+
+/*  -------------------------------------------------------------
+    Fonts
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+@import url("http://openfontlibrary.org/face/benveno");
+
+
+/*  -------------------------------------------------------------
+    Page
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+body {
+    margin: 0 0 0 0;
+    background-color: #F9F6EF;
+}
+
+/*  -------------------------------------------------------------
+    Header
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+header {
+    background-color: black;
+    padding: 1em 0 0.25em 2em;
+}
+
+/*  -------------------------------------------------------------
+    Footer
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+footer {
+    padding-top: 1em;
+    background-color: #E33005;
+}
+
+footer p {
+    font-size: 0.75em;
+}
+
+footer p strong {
+    color: white;
+}
+
+footer hr {
+    border: none;
+    height: 1px;
+    background-color: #CE2A06;
+}
+
+footer .sep {
+    border-right: 1px solid #CE2A06;
+}
+
+footer .copyright {
+    margin-top: 1em;
+    padding: 1em 0 0.25em 0;
+    background-image: url(../img/binding_dark.png);
+    color: white;
+}
+
+footer .copyright p {
+    color: #ccc;
+}
+
+/*  -------------------------------------------------------------
+    Titles
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 400;
+    font-family: 'BonvenoCF';
+}
+
+h1 {
+    color: #E33005;
+}
