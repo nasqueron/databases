@@ -36,5 +36,3 @@ $smarty->display('home.tpl');
 //Serves footer
 $smarty->assign("screen", "Home console");
 include('footer.php');
-
-?>

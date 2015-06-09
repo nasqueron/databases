@@ -251,5 +251,3 @@ function old_message_die($msg_code, $msg_text = '', $msg_title = '', $err_line =
 	
 	exit;
 }
-
-?>

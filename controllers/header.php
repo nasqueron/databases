@@ -29,5 +29,3 @@ $smarty->display('header.tpl');
  * This constant indicates the header have been printed
  */
 define('HEADER_PRINTED', true);
-
-?>

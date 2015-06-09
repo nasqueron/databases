@@ -637,5 +637,3 @@ function get_xhr_url () {
     $args = func_get_args();
     return $Config['DoURL'] . '/' .implode('/', $args);
 }
-
-?>

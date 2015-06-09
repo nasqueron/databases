@@ -26,5 +26,3 @@ $version = "Git revision: $revision | Version: alpha preview (build $build)";
 ///
 $smarty->assign('version', $version);
 $smarty->display('footer.tpl');
-
-?>

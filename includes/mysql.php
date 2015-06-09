@@ -175,4 +175,3 @@ if (!defined('SQL_LAYER')) {
     //a security problem than database password)
     unset($Config['sql']); 
 }
-?>
